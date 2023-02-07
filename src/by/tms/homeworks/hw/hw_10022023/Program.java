@@ -4,9 +4,9 @@ public class Program {
     public static void main(String[] args) {
         int firstNum = 5;
         int secondNum = 2;
-        int result = firstNum + secondNum;
+        int result = firstNum - secondNum;
 
-        System.out.println("Сумма чисел = "+ result);
+        System.out.println("Разность чисел = "+ result);
     }
 
 

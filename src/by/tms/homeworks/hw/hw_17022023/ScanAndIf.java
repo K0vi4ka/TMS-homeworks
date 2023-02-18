@@ -3,7 +3,6 @@ package by.tms.homeworks.hw.hw_17022023;
 import java.util.Scanner;
 
 public class ScanAndIf {
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int len, height, radius;

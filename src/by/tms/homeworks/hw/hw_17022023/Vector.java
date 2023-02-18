@@ -15,7 +15,7 @@ public class Vector {
 
         for (int i = 0; i < count; i++) {
             arr[i] = rand.nextFloat(-10, 10);
-            System.out.printf("%.2f ", arr[i]);
+            System.out.printf("%f ", arr[i]);
         }
 
         int min = 0;
@@ -47,7 +47,7 @@ public class Vector {
         }
 
         System.out.println("\nРезультат вычислений");
-        System.out.format("Произведение = %.2f \n", mult);
+        System.out.format("Произведение = %.2f \n", mult == 1?0:mult);
         System.out.format("Сумма равна = %.2f", sum);
 
 

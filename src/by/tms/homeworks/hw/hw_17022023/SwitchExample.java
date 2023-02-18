@@ -1,4 +1,4 @@
-package by.tms.homeworks.hw.hw_17022023.Switch;
+package by.tms.homeworks.hw.hw_17022023;
 
 import java.util.Scanner;
 

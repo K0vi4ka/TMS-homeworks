@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Vector {
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Random rand = new Random();

@@ -1,7 +1,5 @@
 package by.tms.homeworks.hw.hw_24022023;
 
-import com.sun.jdi.connect.Connector;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -44,7 +42,7 @@ public class Computer {
 
     private void checkUserTry() {
         if (computerState) {
-            int computerNum = random.nextInt(0, 1);
+            int computerNum = random.nextInt(0, 2);
             System.out.println("Введите число 0 или 1");
             int usersNum = in.nextInt();
             computerState = usersNum == computerNum;
